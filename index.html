@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Smart Tracker</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo-section">
+          <span class="icon-wrapper">
+            <i data-lucide="wallet"></i>
+          </span>
+          <h1>Smart Expense Tracker</h1>
+        </a>
+
+        <nav class="nav-container">
+          <button class="menu-close" aria-label="Close menu">
+            <i data-lucide="x"></i>
+          </button>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+
+        <div class="button-container">
+          <a class="btn-started" href="#">Get Started</a>
+        </div>
+        <button class="menu-toggle" aria-label="Open menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <main>
+      <!-- Home Start -->
+      <section id="home" class="home">
+        <div class="home-container">
+          <div class="title-container">
+            <div class="text-container">
+              <h2>Take Control of Your <span> Financial Future</span></h2>
+              <p>
+                Track your expenses, set budgets, and achieve your financial
+                goals with our intuitive expense tracking platform.
+              </p>
+            </div>
+            <div class="button-container">
+              <a href="#" class="btn-start">Start Tracking Now</a>
+              <a href="#" class="btn-more">Learn More</a>
+            </div>
+            <div class="stats-container">
+              <div class="stat-item">
+                <div class="stat-text">
+                  <i data-lucide="trending-up"></i>
+                  <h3>50K+</h3>
+                </div>
+                <p>Active Users</p>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-text">
+                  <i data-lucide="dollar-sign"></i>
+                  <h3>$5M+</h3>
+                </div>
+                <p>Tracked</p>
+              </div>
+
+              <div class="stat-item">
+                <div class="stat-text">
+                  <i data-lucide="clock"></i>
+                  <h3>98%</h3>
+                </div>
+                <p>Satisfaction</p>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <img
+              src="./assets/image/hero-finance.jpg"
+              alt="hero image container"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Home End -->
+
+      <!-- Tips Start -->
+      <article id="tips" class="tips">
+        <div class="tips-container">
+          <div class="tips-title">
+            <h2>How to Manage Your Personal Budget</h2>
+            <p>
+              Master these essential budgeting strategies to take control of
+              your finances and achieve your financial goals
+            </p>
+          </div>
+          <div class="tips-card">
+            <div class="card">
+              <div class="card-track">
+                <div class="icon-wrap"><i data-lucide="lightbulb"></i></div>
+
+                <h3>Track Every Expense</h3>
+              </div>
+              <p>
+                Keep a detailed record of all your expenses, no matter how
+                small. This helps you understand your spending patterns and
+                identify areas where you can cut back.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-set">
+                <div class="icon-wrap"><i data-lucide="target"></i></div>
+
+                <h3>Set Clear Goals</h3>
+              </div>
+              <p>
+                Establish specific financial goals, whether it's saving for a
+                vacation, paying off debt, or building an emergency fund. Having
+                clear targets helps you stay motivated.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-reduce">
+                <div class="icon-wrap"><i data-lucide="trending-down"></i></div>
+
+                <h3>Reduce Unnecessary Spendings</h3>
+              </div>
+              <p>
+                Identify non-essential expenses and find ways to minimize them.
+                Consider alternatives like cooking at home instead of eating
+                out, or using public transportation.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-reduce">
+                <div class="icon-wrap"><i data-lucide="calendar"></i></div>
+
+                <h3>Review Monthly</h3>
+              </div>
+              <p>
+                Take time at the end of each month to review your expenses and
+                budget. This helps you adjust your spending habits and stay on
+                track with your financial goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- Tips End -->
+
+      <!-- About Start -->
+      <aside id="about" class="about">
+        <div class="rules-container">
+          <h2 class="rules-title">The 50/30/20 Rule</h2>
+          <p class="rules-description">
+            A simple and effective budgeting framework that allocates your
+            after-tax income into three categories:
+          </p>
+
+          <ul class="rules-list">
+            <li class="rule-item">
+              <span class="rule-percent fifty">50%</span>
+              <div class="rule-content">
+                <p class="rule-category">for <strong>needs</strong></p>
+                <span class="rule-details"
+                  >- Essential expenses like housing, food, utilities, and
+                  transportation</span
+                >
+              </div>
+            </li>
+            <li class="rule-item">
+              <span class="rule-percent thirty">30%</span>
+              <div class="rule-content">
+                <p class="rule-category">for <strong>wants</strong></p>
+                <span class="rule-details"
+                  >- Non-essential spending like entertainment, dining out, and
+                  hobbies</span
+                >
+              </div>
+            </li>
+            <li class="rule-item">
+              <span class="rule-percent twenty">20%</span>
+              <div class="rule-content">
+                <p class="rule-category">for <strong>savings</strong></p>
+                <span class="rule-details"
+                  >- Emergency funds, retirement savings, and debt
+                  repayment</span
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="profile-container">
+          <div class="profile-image-wrapper">
+            <img
+              src="./assets/image/profile-photo.jpg"
+              alt="Foto profil Johnson"
+              class="profile-image"
+            />
+          </div>
+
+          <div class="profile-content">
+            <div class="profile-header">
+              <h3 class="profile-name">Johnson</h3>
+              <p class="profile-title">Financial Advisor & Creator</p>
+            </div>
+
+            <p class="profile-bio">
+              With over 10 years of experience in personal finance and budget
+              management, I created Smart Expense Tracker to help individuals
+              take control of their financial future. My mission is to make
+              financial literacy accessible to everyone through simple,
+              effective tools.
+            </p>
+
+            <ul class="profile-features-list">
+              <li class="feature-item">
+                <div class="feature-icon"><i data-lucide="award"></i></div>
+
+                <div class="feature-text-content">
+                  <div class="feature-title">Certified Financial Planner</div>
+                  <span class="feature-description">
+                    Licensed CFP® with expertise in personal budgeting
+                  </span>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon"><i data-lucide="users"></i></div>
+
+                <div class="feature-text-content">
+                  <div class="feature-title">Helping 50,000+ Users</div>
+                  <span class="feature-description">
+                    Empowering people to achieve their financial goals
+                  </span>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon"><i data-lucide="heart"></i></div>
+
+                <div class="feature-text-content">
+                  <div class="feature-title">Passionate About Education</div>
+                  <span class="feature-description">
+                    Regular speaker at financial literacy workshops
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <!-- About End -->
+
+      <!-- Testimonial Start -->
+      <section id="testimonials" class="testimonials">
+        <div class="testimonial-container">
+          <div class="testimonial-title">
+            <h2>What Our Users Say</h2>
+            <p>
+              Join thousands of satisfied users managing their finances better
+            </p>
+          </div>
+
+          <ul class="testimonial-list">
+            <li class="testimonial-card">
+              <i data-lucide="quote" aria-hidden="true"></i>
+              <div class="testimonial-star">
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+              </div>
+
+              <blockquote class="testimonial-quote">
+                <p>
+                  "This expense tracker has transformed how I manage my business
+                  finances. The interface is intuitive and the insights are
+                  invaluable."
+                </p>
+              </blockquote>
+
+              <hr />
+
+              <div class="testimonial-user">
+                <p class="user-name">Michael Chen</p>
+                <p class="user-title">Small Business Owner</p>
+              </div>
+            </li>
+
+            <li class="testimonial-card">
+              <i data-lucide="quote" aria-hidden="true"></i>
+              <div class="testimonial-star">
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+              </div>
+
+              <blockquote class="testimonial-quote">
+                <p>
+                  "I've tried many expense trackers, but this one is by far the
+                  best. It's simple, elegant, and helps me stay on top of my
+                  budget effortlessly."
+                </p>
+              </blockquote>
+
+              <hr />
+
+              <div class="testimonial-user">
+                <p class="user-name">Emma Rodriguez</p>
+                <p class="user-title">Freelance Designer</p>
+              </div>
+            </li>
+
+            <li class="testimonial-card">
+              <i data-lucide="quote" aria-hidden="true"></i>
+              <div class="testimonial-star">
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+                <i data-lucide="star" aria-hidden="true"></i>
+              </div>
+
+              <blockquote class="testimonial-quote">
+                <p>
+                  "Finally, an expense tracker that doesn't feel like a chore to
+                  use! The categorization and reporting features are exactly
+                  what I needed."
+                </p>
+              </blockquote>
+
+              <hr />
+
+              <div class="testimonial-user">
+                <p class="user-name">David Thompson</p>
+                <p class="user-title">Software Engineer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Testimonial End -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-up">
+          <div class="footer-logo-section">
+            <div class="footer-logo">
+              <span class="icon-wrapper">
+                <i data-lucide="wallet"></i>
+              </span>
+              <strong>Smart Expense</strong>
+            </div>
+            <p>
+              Your trusted companion for managing expenses and achieving
+              financial freedom.
+            </p>
+            <div class="social-media">
+              <a href="#"><i data-lucide="facebook"></i></a>
+              <a href="#"><i data-lucide="twitter"></i></a>
+              <a href="#"><i data-lucide="instagram"></i></a>
+              <a href="#"><i data-lucide="linkedin"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Products</h3>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Updates</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Api Docs</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <div class="footer-down">
+          <div class="footer-left">
+            <p>&copy; 2025 Smart Expense Tracker. All rights reserved.</p>
+          </div>
+          <div class="footer-right">
+            <ul>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+
+    <!-- Lucide Icons -->
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
